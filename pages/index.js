@@ -10,30 +10,10 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <hr />
-        <p align="center"> <strong> INTRODUCE YOURSELF. WHAT ARE YOUR HOBBIES, FAVOURITE MUSIC, FAVOURITE FOOD,
-        AND OTHER THINGS YOU CAN TELL ME ABOUT YOURSELF?</strong> </p>
-        <p align="center"> My name is Kimberly Guevarra Manaloto and I am 20 years old. I love editing and photography. <br /> </p>
+       
+        <p align="center"> My name is Kimberly Guevarra Manaloto, and I am 20 years old. I have a passion for editing and photography. <br /> I chose to study IT because technology has always fascinated me, and I want to create things <br /> that make people's lives easier. After graduation, I hope to become a <br /> software developer and work on projects that help businesses or individuals. In this subject, I expect to gain a deeper <br /> understanding of programming languages and tools for building better software. I would also love <br /> to learn more about front-end design, user experience, and cloud technologies. <br /> </p>
 
-        <hr />
-
-        <p align="center"> <strong> WHY DID YOU TAKE UP IT? </strong> </p>
-        <p align="center"> I chose IT because technology has always fascinated me, and I want to create things that makes people lives eeasier. <br /> </p>
-
-        <hr />
-
-        <p align="center"> <strong> WHAT CAREER DO YOU SEE YOURSELF EXPLORING AFTER GRADUATION? </strong> </p>
-        <p align="center">I hope to become a software developer and work on projects that help businesses or individuals. <br /> </p>
-        
-        <hr />
-
-        <p align="center"> <strong> WHAT DO YOU EXPECT TO LEARN IN THIS SUBJECT? </strong> </p>
-        <p align="center"> expect to gain a deeper understanding of programming languages and tools for building better software. <br /> </p>
-
-        <hr />
-
-      <p align="center"> <strong> WHAT TOPICS DO YOU WANT TO BE DISCUSSED IN THIS SUBJECT? </strong> </p>
-      <p align="center"> I would love to learn more about front-end design, user experience, and cloud technologies. <br /> </p>
-
+       
       <hr />
 
         <p>
@@ -44,3 +24,4 @@ export default function Home() {
     </Layout>
   );
 }
+
