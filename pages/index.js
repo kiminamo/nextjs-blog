@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title> NEXT JS BLOG </title>
+        <title>{siteTitle}</title>
       </Head>
-      <main>
+      <section className={utilStyles.headingMd}>
         <hr />
         <p align="center"> <strong> INTRODUCE YOURSELF. WHAT ARE YOUR HOBBIES, FAVOURITE MUSIC, FAVOURITE FOOD,
         AND OTHER THINGS YOU CAN TELL ME ABOUT YOURSELF?</strong> </p>
@@ -40,7 +40,7 @@ export default function Home() {
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
-      </main>
+        </section>
     </Layout>
   );
 }
