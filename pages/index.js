@@ -9,20 +9,24 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <hr />
-
+  
     <p style="text-align: justify; line-height: 1.6;">
-  My name is Kimberly Guevarra Manaloto, and I am 20 years old. I have a passion for editing and photography. 
-  I chose to study IT because technology has always fascinated me, and I want to create things that make people's lives easier. 
-  After graduation, I hope to become a software developer and work on projects that help businesses or individuals. 
-  In this subject, I expect to gain a deeper understanding of programming languages and tools for building better software. 
-  I would also love to learn more about front-end design, user experience, and cloud technologies.
-</p>
-      
-       
-      <hr />
 
-        <p>
+    <body>
+    <h1>10 Things That Require Zero Talent</h1>
+    <ol>
+        <li> Being On Time</li>
+        <li> Making An Effort</li>
+        <li> Being High Energy</li>
+        <li> Having A Positive Attitude</li>
+        <li> Being Passionate</li>
+        <li> Using Good Body Language</li>
+        <li> Being Coachable</li>
+        <li> Doing A Little Extra</li>
+        <li> Being Prepared</li>
+        <li> Having A Strong Work Ethic</li>
+    </ol>
+</body>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
